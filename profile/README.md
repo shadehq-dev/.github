@@ -7,7 +7,7 @@
 
 <p align="center">
   <strong>The Self-Hosted Adaptive Data Engine.</strong><br>
-  Content, data and client systems on your own server, with nothing to rent and no one to ask.
+  Free, open-source software for small European businesses to run their own systems on, owned outright and never locked in.
 </p>
 
 <p align="center">
@@ -19,12 +19,13 @@
 
 ---
 
-SHADE runs underneath client systems. Each instance has its own server and its own database. Editors work in the admin
-app, plugins add what a client needs (a shop, bookings, forms, their own records) and frontends in any framework read
-it over the API: Astro, Next.js, Nuxt, SvelteKit or plain HTTP.
+SHADE is open source under Apache-2.0. Anyone may host it, run it and change it. A business runs its own site, shop,
+bookings and forms on SHADE, on a server it chooses, with its own database. Editors work in the admin app and plugins
+add what the business needs. Frontends in any framework read the content over the API: Astro, Next.js, Nuxt, SvelteKit
+or plain HTTP.
 
-Whoever runs an instance owns it outright: no licence keys, no outside services, and any competent developer can take
-it over.
+Whoever runs an instance owns it outright: no licence keys, no outside services, and you can move to another host or
+supplier at any time, with a full export.
 
 > [!NOTE]
 > SHADE is pre-release. Data formats, APIs and the plugin SDK may still change between versions.
@@ -40,9 +41,16 @@ it over.
 
 ### Official plugins
 
+Every official plugin is free and public under Apache-2.0.
+
 | Plugin | What it adds |
 | --- | --- |
 | [`website`](https://github.com/shadehq-dev/shade-plugin-website) | Pages, navigation, posts, theme, redirects and deploys, with a visual editor |
+| [`appointments`](https://github.com/shadehq-dev/shade-plugin-appointments) | Opening hours, free times on the site and bookings in the admin |
+| [`commerce`](https://github.com/shadehq-dev/shade-plugin-commerce) | Products, orders, stock and hosted checkout |
+| [`analytics`](https://github.com/shadehq-dev/shade-plugin-analytics) | Page views without cookies, of the site and of other sites |
+| [`error-forwarding`](https://github.com/shadehq-dev/shade-plugin-error-forwarding) | Sends the errors SHADE stores to a GlitchTip or Sentry the business picks |
+| [`nl`](https://github.com/shadehq-dev/shade-plugin-nl) | PDOK address lookup and KvK company lookup, each opt-in |
 | [`payments`](https://github.com/shadehq-dev/shade-plugin-payments) | Payment providers, and the base for building your own |
 | [`forms`](https://github.com/shadehq-dev/shade-plugin-forms) | Forms on the site and their submissions in the admin |
 | [`editorial`](https://github.com/shadehq-dev/shade-plugin-editorial) | Editorial workflow for content teams |
@@ -60,4 +68,4 @@ Please report vulnerabilities privately, as described in
 
 ---
 
-<sub>SHADE is built by RG Digital in the Netherlands and released under the Apache 2.0 licence.</sub>
+<sub>RG Digital built SHADE. It is open source under Apache-2.0: anyone may host it, run it and change it. For help with SHADE itself, use GitHub Discussions on the shade repo.</sub>
