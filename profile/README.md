@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <strong>The Self-Hosted Adaptive Data Engine.</strong><br>
-  Free, open-source software for small European businesses to run their own systems on, owned outright and never locked in.
+  <strong>Hosted by you or for you, shaped to fit, and always yours.</strong><br>
+  Start with a website, a shop or bookings, and add what you need as you go.
 </p>
 
 <p align="center">
@@ -19,13 +19,15 @@
 
 ---
 
-SHADE is open source under Apache-2.0. Anyone may host it, run it and change it. A business runs its own site, shop,
-bookings and forms on SHADE, on a server it chooses, with its own database. Editors work in the admin app and plugins
-add what the business needs. Frontends in any framework read the content over the API: Astro, Next.js, Nuxt, SvelteKit
-or plain HTTP.
+SHADE is the system a business or organisation runs on: its website, its shop, its bookings and the admin behind them,
+in one place. Usually a developer or a host sets it up, but it stays the business's own. Its data lives in its own
+setup, on a server it chooses, and if it ever switches developer or host, it takes everything with it. There are no
+licence keys, and nothing stops working when someone else stops paying attention.
 
-Whoever runs an instance owns it outright: no licence keys, no outside services, and you can move to another host or
-supplier at any time, with a full export.
+SHADE is open source under Apache-2.0, so anyone may host it, run it and change it. For the people who build on it,
+plugins add what a business needs, and frontends in any framework read the content over the API: Astro, Next.js, Nuxt,
+SvelteKit or plain HTTP. SHADE is built in the Netherlands, for Europe first. It follows EU rules by design, and it
+runs anywhere.
 
 > [!NOTE]
 > SHADE is pre-release. Data formats, APIs and the plugin SDK may still change between versions.
